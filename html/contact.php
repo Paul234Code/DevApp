@@ -35,8 +35,8 @@
    </div>
    <div class="row text-center">
       <div class="col">
-         <button type="reset" class="btn btn-primary btn-lg ms-lg-5" name="effacer">Effacer</button>
-         <button type="submit" class="btn btn-light btn-lg ms-lg-5" name="envoyer">Envoyer</button>
+         <input type="reset" class="btn btn-primary btn-lg ms-lg-5" name="effacer" value="effacer">
+         <input type="submit" class="btn btn-light btn-lg ms-lg-5" name="envoyer" value="Envoyer">
       </div>
    </div>
 </form>
