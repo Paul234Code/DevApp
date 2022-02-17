@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 class="text-center mb-lg-5 mt-lg-5">Ajouter un produit</h1>
-<form action="../php/Validation.php" method="post" class="border container mb-3 pb-lg-5" >
+<form action="../php/Traitement.php" method="post" class="border container mb-3 pb-lg-5" >
    <div class="container">
       <div class="mb-3 mt-3">
          <label for="code" class="form-label "><strong>Code:</strong></label>
@@ -35,8 +35,8 @@
    </div>
    <div class="row text-center">
       <div class="col">
-         <button type="reset" class="btn btn-primary btn-lg me-lg-5" name="reset">effacer</button>
-         <button type="submit" class="btn btn-light btn-lg ms-lg-5" name="submit">validation</button>
+         <input type="reset" class="btn btn-primary btn-lg me-lg-5" name="reset" value="effacer">
+         <input type="submit" class="btn btn-light btn-lg ms-lg-5" name="submit" value="validation">
       </div>
    </div>
 </form>

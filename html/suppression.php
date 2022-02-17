@@ -21,7 +21,8 @@
 <!-- Code PHP---->
 <?php
 // inclusion du fichier de connection
-include_once ("../php/Connection.php")
+include_once ("../php/CreateConnection.php");
+$connecteur = createConnection("magasin");
 
 ?>
 
