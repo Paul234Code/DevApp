@@ -14,11 +14,11 @@
    <div class="container">
       <div class="mb-3 mt-3">
          <label for="code" class="form-label "><strong>Code:</strong></label>
-         <input type="text" class="form-control" id="code" placeholder="Enter code" name="code">
+         <input type="text" class="form-control" id="code" placeholder="Enter code" name="code" required>
       </div>
       <div class="mb-3">
          <label for="price" class="form-label"><strong>Price:</strong></label>
-         <input type="text" class="form-control" id="price" placeholder="Enter price" name="price">
+         <input type="text" class="form-control" id="price" placeholder="Enter price" name="price" required>
       </div>
    </div>
    <div class="row text-center">
@@ -32,7 +32,8 @@
 <!-- Code php --->
 <?php
 // inclusion du fichier de connection
-include_once ("../php/Connection.php")
+include_once ("../php/CreateConnection.php");
+$connecteur = createConnection("magasin");
 
 ?>
 
