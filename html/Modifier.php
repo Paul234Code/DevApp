@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 class="text-center mb-lg-5 mt-lg-5">Modifier un produit</h1>
-<form action="<?php  echo $_SERVER['PHP_SELF']?>" method="post" class="border container mb-3 pb-lg-5" >
+<form action="../php/modification.php" method="post" class="border container mb-3 pb-lg-5" >
    <div class="container">
       <div class="mb-3 mt-3">
          <label for="identifiant" class="form-label "><strong>Id:</strong></label>
@@ -33,18 +33,5 @@
    </div>
 
 </form>
-<?php
-// inclusion du fichier de connection
-include_once ("../php/CreateConnection.php");
-include_once ("../php/contact.php");
-$connecteur = createConnection("magasin");
-if(isset($_POST['submit'])){
-   $code= $connecteur->quote($_POST['code']);
-   $price = $connecteur->quote($_POST['price']);
-   $identifiant = $connecteur->quote($_POST['identifiant']);
-   $request = "UPDATE produit SET  Price = $price ,Code=$code WHERE Id = $identifiant";
-   executionDeLaRequest($connecteur, $request);
-}
-?>
 </body>
 </html>
