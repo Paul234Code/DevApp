@@ -79,7 +79,7 @@
       </div>
    </div>
 </form>
-<div class="container-fluid">
+<div class="container-fluid" style="height: 500px;">
 
 </div>
 <div class="card-footer container-fluid  mb-lg-5">
