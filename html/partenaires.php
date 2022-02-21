@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+   <title>Partenaires</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-   <title>Formulaire contact</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -27,21 +27,21 @@
                <a class="nav-link active" href="../index.php" >Accueil</a>
             </li>
             <li class="nav-item ">
-               <a class="nav-link" href="../html/Produits.php" >Products</a>
+               <a class="nav-link" href="Produits.php">Products</a>
             </li>
             <li class="nav-item ">
-               <a class="nav-link" href="../html/Ajouter.php">Ajouter</a>
+               <a class="nav-link" href="Ajouter.php">Ajouter</a>
             </li>
             <li class="nav-item ">
-               <a class="nav-link" href="../html/Modifier.php">Modifier</a>
+               <a class="nav-link" href="Modifier.php">Modifier</a>
             </li>
             <li class="nav-item ">
-               <a class="nav-link" href="../html/suppression.php">Supprimer</a>
+               <a class="nav-link" href="suppression.php">Supprimer</a>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href="contact.php">Nous contacter</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="../html/contact.php">Nous contacter</a>
-            </li>
-            <li class="nav-item ">
                <a class="nav-link" href="">Partenaires</a>
             </li>
          </ul>
@@ -60,40 +60,7 @@
       </div>
    </nav>
 </div>
-<h1 class="text-center mb-lg-5 mt-lg-5">Informations du client</h1>
-<form action="../php/contact.php" method="post" class="container border mb-3 pb-lg-5">
-   <div class="container">
-   <div class="mb-3 mt-3">
-      <label for="prenom" class="form-label"><strong>Prenom:</strong></label>
-      <input type="text" class="form-control" id="prenom" placeholder="Enter prenom" name="prenom" required>
-   </div>
-   <div class="mb-3">
-      <label for="nom" class="form-label"><strong>Nom:</strong></label>
-      <input type="text" class="form-control" id="nom" placeholder="Enter nom" name="nom" required>
-   </div>
-   <div class="mb-3">
-      <label for="email" class="form-label"><strong>Email:</strong></label>
-      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
-   </div>
-   <div class="mb-3">
-      <label for="commentaire" class="form-label"><strong>Commentaire:</strong></label>
-      <textarea class="form-control" rows="5" placeholder="Enter commentaire" id="commentaire" name="commentaire"></textarea>
-   </div>
-   <div class="mb-3">
-      <label for="date" class="form-label"><strong>Date:</strong></label>
-      <input type="text" class="form-control mb-5" id="date" placeholder="Enter date" name="date">
-   </div>
-   </div>
-   <div class="row text-center">
-      <div class="col">
-         <input type="reset" class="btn btn-primary btn-lg ms-lg-5" name="effacer" value="effacer">
-         <input type="submit" class="btn btn-light btn-lg ms-lg-5" name="envoyer" value="Envoyer">
-      </div>
-   </div>
-</form>
-<div class="container-fluid" style="height: 500px;">
-
-</div>
+<h2 class="text-center">Nos Partenaires</h2>
 <div class="card-footer container-fluid  mb-lg-5">
    <div class="container-fluid  text-center row row-cols-5 mx-auto" style="width: 500px;">
       <div class="card-body">
@@ -131,6 +98,7 @@
 <div class="container-fluid text-center">
    <p class="text-center">Organic Design System.&copy;2019 B_system.All rights reserved example.<br/> Customer Service:010 210 465</p>
 </div>
+
 
 </body>
 </html>
