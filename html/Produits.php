@@ -9,6 +9,9 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<?php
+
+?>
 <div class="card-header ">
    <nav class="navbar navbar-expand-sm  justify-content-center ">
       <div class="container-fluid">
@@ -64,7 +67,7 @@
    <div class="row mb-lg-5">
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class=" img-responsive card-img-top " src="cards/image-one.jpg" alt="Card image">
+            <img class=" img-responsive card-img-top " src="../cards/image-one.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">100$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -73,7 +76,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="img-responsive card-img-top" src="cards/image-two.jpg" alt="Card image">
+            <img class="img-responsive card-img-top" src="../cards/image-two.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">200$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -82,7 +85,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="img-responsive card-img-top" src="cards/image-three.jpg" alt="Card image">
+            <img class="img-responsive card-img-top" src="../cards/image-three.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">300$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -93,7 +96,7 @@
    <div class="row mb-lg-5">
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/image-fourth.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/image-fourth.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">150$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -102,7 +105,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/star-fish.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/star-fish.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">50$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -111,7 +114,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/meat-fish.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/meat-fish.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">60$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -122,7 +125,7 @@
    <div class="row mb-lg-5 collapse demo">
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/red-fish.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/red-fish.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">70$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -131,7 +134,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/fish-pasta.jpg"   alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/fish-pasta.jpg"   alt="Card image">
             <div class="card-body">
                <h4 class="card-title">20$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -140,7 +143,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/fish-chips.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/fish-chips.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">25$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -153,7 +156,7 @@
    <div class="row mb-lg-5 collapse demo ">
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/fish-limon.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/fish-limon.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">40.75$</h4>
                <a href="#" class="btn btn-primary">See Descriptions</a>
@@ -162,7 +165,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/fish-tail.jpg" alt="Card image">
+            <img class="card-img-top img-responsive" src="../cards/fish-tail.jpg" alt="Card image">
             <div class="card-body">
                <h4 class="card-title">30.45$</h4>
                <a href="#" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#produit11">See Descriptions</a>
@@ -174,7 +177,7 @@
       </div>
       <div class="col">
          <div class="card" style="width:90%; height: 500px">
-            <img class="card-img-top img-responsive" src="cards/tropical.jpg" alt="Card image" >
+            <img class="card-img-top img-responsive" src="../cards/tropical.jpg" alt="Card image" >
             <div class="card-body">
                <h4 class="card-title">200.75$</h4>
                <a href="#" class="btn btn-primary"  data-bs-toggle="collapse" data-bs-target="#produit12">See Descriptions</a>
