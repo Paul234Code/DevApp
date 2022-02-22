@@ -10,6 +10,7 @@
 </head>
 <body>
 <?php
+include_once ("../php/selection.php");
 
 ?>
 <div class="card-header shadow-lg">
