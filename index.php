@@ -64,7 +64,7 @@
 </nav>
 </div>
 <div class="container-fluid" style="height: 700px;">
-   <h1>Bienvenue </h1>
+   <h1 class="text-center mt-3 mb-3">Bienvenue dans notre site web</h1>
 
 </div>
 
