@@ -44,6 +44,9 @@
          <li class="nav-item ">
             <a class="nav-link" href="">Partenaires</a>
          </li>
+         <li class="nav-link">
+            <input type="search" class="overflow-hidden form-control" value="search" style="width: 300px;">
+         </li>
       </ul>
       <a type="button" class="btn btn-light border " style="width: 150px;margin-right: 15px;">
          <span class="me-2"><b>Access</b></span>
@@ -61,6 +64,7 @@
 </nav>
 </div>
 <div class="container-fluid" style="height: 700px;">
+   <h1>Bienvenue </h1>
 
 </div>
 

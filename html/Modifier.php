@@ -44,6 +44,9 @@
             <li class="nav-item">
                <a class="nav-link" href="">Partenaires</a>
             </li>
+            <li class="nav-link">
+               <input type="search" class="overflow-hidden form-control" value="search" style="width: 300px;">
+            </li>
          </ul>
          <a type="button" class="btn btn-light border " style="width: 150px;margin-right: 15px;">
             <span class="me-2"><b>Access</b></span>
@@ -83,6 +86,9 @@
       </div>
    </div>
 </form>
+<div class="container-fluid" style="height: 500px;">
+
+</div>
    <div class="card-footer container-fluid  mb-lg-5">
       <div class="container-fluid  text-center row row-cols-5 mx-auto" style="width: 500px;">
          <div class="card-body">
