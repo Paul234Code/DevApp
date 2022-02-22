@@ -12,7 +12,7 @@
 <?php
 
 ?>
-<div class="card-header ">
+<div class="card-header shadow-lg">
    <nav class="navbar navbar-expand-sm  justify-content-center ">
       <div class="container-fluid">
          <a class="navbar-brand" href="#">
@@ -198,7 +198,7 @@
 <div class="container text-center mb-xxl-5">
    <button type="button" class=" btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target=".demo">Voir plus de produits</button>
 </div>
-<div class="card-footer container-fluid  mb-lg-5">
+<div class="card-footer container-fluid  shadow-sm mb-lg-5 bg-white">
    <div class="container-fluid  text-center row row-cols-5 mx-auto" style="width: 500px;">
       <div class="card-body">
          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
