@@ -3,7 +3,7 @@
 class DatabaseConnection
 {
     private $_HOST = 'localhost';
-    private $_USER = 'root';
+    private $_USER = 'admin';
     private $_PASSWORD = 'paul198803';
     private $_PORT = 3306;
     //constructeur de la classe sans parameters

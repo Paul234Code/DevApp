@@ -9,5 +9,4 @@ function createConnection($database){
         die("Erreur connection: ".$exception->getMessage());
     }
     return $connection;
-
 }

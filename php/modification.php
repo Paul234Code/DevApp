@@ -1,7 +1,7 @@
 <?php
 // inclusion du fichier de connection
-include_once ("../php/CreateConnection.php");
-include_once ("../php/contact.php");
+include_once ("CreateConnection.php");
+include_once ("contact.php");
 $connecteur = createConnection("magasin");
 if(isset($_POST['submit'])){
     if(!empty($_POST['code']) and ! empty($_POST['price']) and ! empty( $_POST['identifiant']))
@@ -9,7 +9,7 @@ if(isset($_POST['submit'])){
         $code= $connecteur->quote($_POST['code']);
         $price = $connecteur->quote($_POST['price']);
         $identifiant = $connecteur->quote($_POST['identifiant']);
-        $request = "UPDATE produit SET  Price = $price ,Code=$code WHERE Id=$identifiant";
+        $request = "UPDATE produit SET  Price = $price ,Code=$code WHERE Id =$identifiant";
         executionDeLaRequest($connecteur, $request);
     }
     else
