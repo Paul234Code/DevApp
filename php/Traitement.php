@@ -1,6 +1,7 @@
 <?php
 // script qui traite les donnes recueilli sur un produit et l'ajout dans la BD
 include_once ("CreateConnection.php");
+include_once ("contact.php");
 $connecteur = createConnection("magasin");
 if(isset($_POST['submit']))
 {
@@ -14,7 +15,5 @@ if(isset($_POST['submit']))
     //execution de la request
     executionDeLaRequest($connecteur, $request);
 }
-else {
-    echo "<h3>Formulaire à compléter !</h3>";
-}
+
 

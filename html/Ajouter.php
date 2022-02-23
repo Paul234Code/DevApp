@@ -9,7 +9,7 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<div class="card-header ">
+<div class="card-header shadow-sm">
    <nav class="navbar navbar-expand-sm  justify-content-center ">
       <div class="container-fluid">
          <a class="navbar-brand" href="#">
@@ -43,6 +43,9 @@
             </li>
             <li class="nav-item">
                <a class="nav-link" href="">Partenaires</a>
+            </li>
+            <li class="nav-link">
+               <input type="search" class="overflow-hidden form-control" value="search" style="width: 300px;">
             </li>
          </ul>
          <a type="button" class="btn btn-light border " style="width: 150px;margin-right: 15px;">
@@ -94,7 +97,7 @@
 <div class="container-fluid" style="height: 500px;">
 
 </div>
-<div class="card-footer container-fluid  mb-lg-5">
+<div class="card-footer container-fluid  shadow-sm mb-lg-5 bg-white">
    <div class="container-fluid  text-center row row-cols-5 mx-auto" style="width: 500px;">
       <div class="card-body">
          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
